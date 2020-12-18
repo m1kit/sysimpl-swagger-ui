@@ -1,0 +1,90 @@
+<div class="main-content">
+  <h2><a name=""></a></h2>
+  <p>This is the  API</p>
+
+  <h2><a name="getAccountInfo"></a>getAccountInfo</h2>
+  <hr>
+  <p></p>
+  
+  <h3 class="section">URL</h3>
+  <code>http://localhost:8081/api/v1/users/me</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="User"><a href="">User</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+  </ul>
+  <h2><a name="signin"></a>signin</h2>
+  <hr>
+  <p></p>
+  
+  <h3 class="section">URL</h3>
+  <code>http://localhost:8081/api/v1/credential</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200"><a href="">inline_response_200</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      
+      <span class="param-in">Body: </span>
+      <span class="param-name">body</span>
+      <span class="param-type">Credential(Credential)</span>
+      
+      <p class="param-description">ユーザ名とパスワードを渡すことでサインインする</p>
+	  </li>
+  </ul>
+  <h2><a name="signup"></a>signup</h2>
+  <hr>
+  <p></p>
+  
+  <h3 class="section">URL</h3>
+  <code>http://localhost:8081/api/v1/users</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_1"><a href="">inline_response_200_1</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      
+      <span class="param-in">Body: </span>
+      <span class="param-name">body</span>
+      <span class="param-type">Credential(Credential)</span>
+      
+      <p class="param-description">ユーザ名とパスワードを渡すことで新規登録する</p>
+	  </li>
+  </ul>
+  <h2><a name="updateAccountInfo"></a>updateAccountInfo</h2>
+  <hr>
+  <p></p>
+  
+  <h3 class="section">URL</h3>
+  <code>http://localhost:8081/api/v1/users/me</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>PUT</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_1"><a href="">inline_response_200_1</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      
+      <span class="param-in">Body: </span>
+      <span class="param-name">body</span>
+      <span class="param-type">Settings(Settings)</span>
+      
+      <p class="param-description">パスワードとOCW-iのRSS/iCalのURLを渡しアカウント情報を更新する</p>
+	  </li>
+  </ul>
+</div>
